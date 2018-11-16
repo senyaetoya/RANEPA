@@ -1,0 +1,11 @@
+<html>
+	<head>
+	<title>Мой сайт</title>
+	</head>
+	
+	<body>
+	<p align="center">ma nem<br/><em><strong>Jef</strong></em></p>
+	<p>Oh, hi, Mark mi nem jeb. I study in ranepa under president. 
+	it is possible that you study there as well. that would be <i><b><ins>SiCk</ins></b></i>. If you do
+	pls <a href="www.google.com">contact me</a></p>. luv u.
+	<p><img src="G9SPmK9Ho-Af.jpeg" alt="ITSA MI MARIOOOOOOOOOO!!!!!!)))))"width="100%" height ="50%"/></p>

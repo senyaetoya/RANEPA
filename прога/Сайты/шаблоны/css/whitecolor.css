@@ -1,0 +1,19 @@
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white!important; 
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: white!important; 
+}
+
+p,h1,h2,h3,h4,li,a {
+	color:white!important;
+	border-color:white!important;
+}
+
+.slidedotsf li {
+    background-color:white!important;
+}
+

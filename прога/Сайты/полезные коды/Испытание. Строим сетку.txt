@@ -1,0 +1,173 @@
+HTML
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <title>»спытание: строим сетку</title>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <div class="top ">
+            <div class="layout-positioner">
+                <div class="header">Header</div>
+            </div>
+                <div class="menu">
+                    <div class="layout-positioner">
+                        <div class="menuu">Menu</div>
+                    </div>
+                </div>
+            <div class="layout-positioner">
+                <div class="promo1">Promo 1</div>
+                <div class="promo2">Promo 2</div>
+            </div>
+        </div>
+        <div class="features">
+            <div class="layout-positioner">
+                <div class="left">Left</div>
+                <div class="main">Main</div>
+                <div class="right">Right</div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="layout-positioner">
+                <div class="foooter">Footer</div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+CSS:
+html,
+body {
+    
+margin: 0;
+    padding: 0;
+
+}
+
+
+body {
+    
+width: 450px;
+    height: 335px;
+    font-family: "Arial", sans-serif;
+    font-size: 10px;
+    color: white;
+
+}
+
+
+.header,
+.promo1,
+.promo2,
+.left,
+.main,
+.right {
+    
+padding:5px;
+
+}
+
+
+.layout-positioner::after {
+    
+display: table;
+    content: "";
+    clear: both;
+
+}
+
+
+.layout-positioner {
+    
+width:350px;
+    margin: 0 auto;
+
+
+}
+
+
+.top {
+    
+background:#34495e;
+    padding:10px 0 0 0;
+}
+
+
+.header {
+    width:340px;
+    height:25px;
+    margin:0 0 10px 0;
+    background:#c0392b;
+    float:left;
+}
+
+.menu {
+    height:35px;
+    margin:0 0 10px 0;
+    background:#3498DB;
+}
+
+.menuu {
+    padding:5px;
+}
+
+.promo1 {
+    width:160px;
+    height:50px;
+    margin:0 10px 10px 0;
+    background:#c0392b;
+    float:left;
+}
+
+.promo2 {
+    width:160px;
+    height:50px;
+    margin:0 0 10px 0;
+    background:#c0392b;
+    float:left;
+
+}
+
+.features {
+    padding:10px 0;
+    background:#fff;
+}
+
+.left {
+    background:#3498DB;
+    float:left;
+    height:100px;
+    width:60px;
+    margin: 0 10px 0 0;
+}
+
+.main {
+    background:#3498DB;
+    float:left;
+    height:100px;
+    width:180px;
+    margin: 0 10px 0 0;
+}
+
+.right {
+    background:#3498DB;
+    float:right;
+    height:100px;
+    width:60px;
+}
+
+.footer {
+    background:#34495e;
+    height:40px;
+}
+  
+.foooter {
+    padding:5px;
+}
+/*
+    »спользуемые цвета:
+    #34495e Ц мокрый асфальт
+    #c0392b Ц красный
+    #3498DB Ц синий
+*/

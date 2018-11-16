@@ -1,0 +1,104 @@
+@font-face {
+	font-family: 'Avenir Next Cyr';
+	src: url('../fonts/AvenirNextCyr-Regular.eot');
+	src: local('../fonts/Avenir Next Cyr Regular'), local('../fonts/AvenirNextCyr-Regular'),
+		url('../fonts/AvenirNextCyr-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextCyr-Regular.woff') format('woff'),
+		url('../fonts/AvenirNextCyr-Regular.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir Next Cyr';
+	src: url('../fonts/AvenirNextCyr-Demi.eot');
+	src: local('../fonts/Avenir Next Cyr Demi'), local('../fonts/AvenirNextCyr-Demi'),
+		url('../fonts/AvenirNextCyr-Demi.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextCyr-Demi.woff') format('woff'),
+		url('../fonts/AvenirNextCyr-Demi.ttf') format('truetype');
+	font-weight: bold;
+	font-style: normal;
+}
+
+:root {
+	--teal:#B3FFDB;
+	--red:#FF4A4A;
+	--orange:#F95E28;
+	--yellow:#FFE14D;
+	--mainFontSize:calc(1vw + 1vh);
+}
+
+body {
+	background-color:white;
+	color:black;
+	font-family:'Avenir Next Cyr', Tahoma;
+	font-style:normal;
+	font-weight:normal;
+	font-size: var(--mainFontSize);
+	overflow: hidden!important;
+	position:relative;
+}
+
+body.index {
+	background-color:white;	
+	color:black;
+}
+
+body.blog {
+	background-color:var(--teal);	
+	color:black;
+}
+
+body.projects {
+	background-color:var(--yellow);	
+	color:black;
+}
+
+body.design {
+	background-color:var(--orange);
+	color:white;
+}
+
+body.store {
+	background-color:var(--red);
+	color:white;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+ul {
+	list-style:none;
+}
+
+a {
+	text-decoration: none;
+	color:inherit;
+}
+
+h1 {
+	font-size: calc(var(--mainFontSize)*5.2);
+	text-align:center;
+}
+
+h2 {
+	font-size: calc(var(--mainFontSize)*2);
+}
+
+input {
+	outline:none;
+	border:none;
+}
+
+label {
+	cursor:pointer;
+}
+
+main.fullheight {
+    height:100vh;
+}
+
+

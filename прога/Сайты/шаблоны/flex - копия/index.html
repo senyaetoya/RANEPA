@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="keywords" content=" ">
+		<title>Document</title>
+
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+		<!--[if IE]>
+			<script type="text/javascript">
+				 var console = { log: function() {} };
+			</script>
+		<![endif]-->
+		<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+		
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script type="text/javascript" src="script/jquery.fullPage.js"></script>
+		
+		<script type="text/javascript">
+			$(document).ready(function() {
+				$('#fullpage').fullpage({
+				//Навигация
+				menu: '#menu',
+				lockAnchors: false,
+				anchors:['firstPage', 'secondPage', 'thirdPage', 'fourthPage'],
+				navigation: false,
+				navigationPosition: 'bottom',
+				navigationTooltips: ['firstSlide', 'secondSlide'],
+				showActiveTooltip: false,
+				slidesNavigation: false,
+				slidesNavPosition: 'bottom',
+
+				//Скроллинг
+				css3: true,
+				scrollingSpeed: 700,
+				autoScrolling: true,
+				fitToSection: true,
+				fitToSectionDelay: 1000,
+				scrollBar: false,
+				easing: 'easeInOutCubic',
+				easingcss3: 'ease',
+				loopBottom: false,
+				loopTop: false,
+				loopHorizontal: true,
+				continuousVertical: false,
+				continuousHorizontal: false,
+				scrollHorizontally: false,
+				interlockedSlides: false,
+				dragAndMove: false,
+				offsetSections: false,
+				resetSliders: false,
+				fadingEffect: false,
+				normalScrollElements: '#element1, .element2',
+				scrollOverflow: false,
+				scrollOverflowReset: false,
+				scrollOverflowOptions: null,
+				touchSensitivity: 15,
+				normalScrollElementTouchThreshold: 5,
+				bigSectionsDestination: null,
+
+				//Доступ
+				keyboardScrolling: true,
+				animateAnchor: true,
+				recordHistory: true,
+
+				//Дизайн
+				controlArrows: true,
+				verticalCentered: true,
+				sectionsColor : [],
+				paddingTop: 0,
+				paddingBottom: 0,
+				fixedElements: '#header, .footer',
+				responsiveWidth: 0,
+				responsiveHeight: 0,
+				responsiveSlides: false,
+				parallax: false,
+				parallaxOptions: {type: 'reveal', percentage: 62, property: 'translate'},
+
+				//Настроить селекторы
+				sectionSelector: '.section',
+				slideSelector: '.slide',
+
+				lazyLoading: true,
+
+				//события
+				onLeave: function(index, nextIndex, direction){},
+				afterLoad: function(anchorLink, index){},
+				afterRender: function(){},
+				afterResize: function(){},
+				afterResponsive: function(isResponsive){},
+				afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+				onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
+			});
+		});
+		</script>
+	</head>  
+
+  	<body>
+
+  		<div id="fullpage">
+
+			<div class="section" id="section0">
+				<span>heh</span>
+			</div>
+
+			<div class="section" id="section1">		
+				<span>heh</span>
+			</div>
+
+			<div class="section" id="section2">
+				<span>heh</span>
+			</div>
+			
+		</div>
+	</body>
+</html>	
+
+

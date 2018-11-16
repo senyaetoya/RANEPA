@@ -1,0 +1,163 @@
+/*first page*/
+.logo {
+    align-self:center;
+    margin-top:auto;
+    display:flex;
+    flex-direction:column;
+}
+
+.logoImg {
+	background: url('../img/logo.png') center center no-repeat;
+	background-size:contain;
+	width:20vw;
+	height:15vw;
+}
+
+.logoName {
+    display:block;
+    align-self:center;
+    padding-top:20px;
+    font-size:;
+}
+
+header {
+	margin-top:0.8vw;
+	margin-left:1.4vw;
+	align-self: flex-start;
+	z-index:11;
+}
+
+main {
+	margin-top:auto;
+}
+
+.article .article_text {
+	margin-left:1.4vw;
+	margin-bottom:0.8vw;
+}
+
+.article figure {
+	display:flex;
+	height:65vh;
+	flex-direction: column;
+	justify-content: flex-end;
+	background-size:cover;
+}
+
+.blog {
+	background:url('../img/article.jpg') no-repeat center center fixed;
+
+}
+
+.design {
+	background:url('../img/design.jpg') no-repeat center center fixed;
+}
+
+.projects {
+	background:url('../img/projects.jpg') no-repeat center center fixed;
+}
+
+
+.article figcaption {
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+	text-align:center;
+	/* Fallback for web browsers that don't support RGBa */
+    background-color: rgb(0, 0, 0);
+    /* RGBa with 0.6 opacity */
+    background-color: rgba(0, 0, 0, 0.5);
+    /* For IE 5.5 - 7*/
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000);
+    /* For IE 8*/
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#99000000, endColorstr=#99000000)";
+    padding:calc(0.7vw + 0.7vh);
+    padding-bottom:calc(0.8vw + 0.8vh);
+}
+
+.article figcaption {
+	color:white;
+}
+
+figcaption h2 {
+	margin-bottom:0.5vw;
+}
+
+figcaption span {
+	margin-bottom:1vw;
+}
+
+a.go {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: start;
+	    -ms-flex-pack: start;
+	        justify-content: flex-start;
+	color:white;
+	text-decoration: none;
+	-ms-flex-item-align:center;
+	    align-self:center;
+}
+
+a.go p {
+	color:white;
+	padding-bottom:calc(0.4vw + 0.4vh);
+	padding-right:0.5vw;
+	padding-left:0.5vw;
+}
+
+img.goLine {
+	
+}
+
+
+footer {
+	position:relative;
+	margin-top:auto;
+	display:-webkit-box;
+	display:-ms-flexbox;
+	display:flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+	margin-bottom:2vh;
+}
+
+footer a {
+    text-decoration:none;
+    color:black;
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	    -ms-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	    -ms-flex-pack: justify;
+	        justify-content: space-between;
+	-webkit-box-align:center;
+	    -ms-flex-align:center;
+	        align-items:center;
+}
+
+footer span {
+	display:inline-block;
+	margin-bottom:0.7vw;
+}
+
+footer img.arrow {
+	width:2.083vw;
+}

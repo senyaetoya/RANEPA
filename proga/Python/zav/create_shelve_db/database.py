@@ -28,10 +28,32 @@ tom = {
     'pay': 0
 }
 
+kek = {
+    'name': {
+        'first': 'kek',
+        'second': 'lel'
+    },
+    'age': 18,
+    'job': None,
+    'pay': 0
+}
+
+marina = {
+    'name': {
+        'first': 'Marina',
+        'second': 'Dadakhanova'
+    },
+    'age': 20,
+    'job': 'pusya',
+    'pay': 1000000
+}
+
 db = {
     'Bob': bob,
     'Sue': sue,
-    'Tom': tom
+    'Tom': tom,
+    'Kek': kek,
+    'Marina': marina
 }
 
 
@@ -43,6 +65,5 @@ if __name__ == '__main__':
               ', ' + str(db[key]['age']) +
               ', ' + str(db[key]['pay']))
 
-input()
 
 

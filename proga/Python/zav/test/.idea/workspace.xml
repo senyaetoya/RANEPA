@@ -2,38 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="98edb0c9-9ab0-4bb2-b363-7d19a615ac45" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/senyaetoya.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gcd.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/module.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/my_solution.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/tkinter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/attachgui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/beret.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/custom_gui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/fungui.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/tkinter1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/tkinter2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter/tkinter_input.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/.idea/tkinter_database.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/Manager.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/Person.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/Urbanist.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/beret.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/fix.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/get_records.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/shelve_database/people-classes.bak" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/shelve_database/people-classes.dat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tkinter_database/shelve_database/people-classes.dir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Базы данных/Uspevaemost_BD_Barsukova.accdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Базы данных/Uspevaemost_BD_Barsukova.accdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/Zadachka.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/python/Zadachka.xlsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/python/int_linear_prog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/python/lin_program_with_glpk.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/python/linear_programming.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/python/todo.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/алгоритм/1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/алгоритм/2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/алгоритм/Thumbs.db" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/алгоритм/постановка задачи.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/ссылки/Mixed-Integer Programming (MIP) Basics - Gurobi.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/ссылки/mixed integer programming - Поиск в Google.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/ссылки/Как решать простые задачи оптимизации на питоне с помощью cvxpy - Хабр.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/ссылки/Классика оптимизации- задача рюкзака (knapsack problem) - Хабр.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/ссылки/Линейное программирование в python силами библиотеки scipy - Хабр.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/ссылки/Решение задач линейного программирования с использованием Python - Хабр.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/ссылки/Симплекс-метод — Википедия.url" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/проект/тз.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../Александра Яковлева/см" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -259,6 +246,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2524785" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
